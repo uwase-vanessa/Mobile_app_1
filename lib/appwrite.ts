@@ -65,7 +65,6 @@ export async function login() {
       const result = await account.get();
       if (result.$id) {
         const userAvatar = avatar.getInitials(result.name);
-  
         return {
           ...result,
           avatar: userAvatar.toString(),

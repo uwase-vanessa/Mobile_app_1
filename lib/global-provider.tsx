@@ -45,8 +45,6 @@ export const GlobalProvider = ({ children }: GlobalProviderProps) => {
         </GlobalContext.Provider>
       );
       
-
-  
 };
 
 export const useGlobalContext = (): GlobalContextType => {
@@ -58,3 +56,4 @@ export const useGlobalContext = (): GlobalContextType => {
 };
 
 export default GlobalProvider;
+ 
